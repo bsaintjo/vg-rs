@@ -1,0 +1,14 @@
+[package]
+name = "vg-sys"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+autocxx = "0.24.0"
+cxx = { version = "1.0.89", features = ["c++14"] }
+
+[build-dependencies]
+autocxx-build = "0.24.0"
+miette = { version = "5.5.0", features = ["fancy"] }

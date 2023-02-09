@@ -1,0 +1,3 @@
+[submodule "vg-sys/vg"]
+	path = vg-sys/vg
+	url = https://github.com/vgteam/vg.git
